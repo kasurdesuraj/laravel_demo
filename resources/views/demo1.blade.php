@@ -36,7 +36,8 @@
                 <div class="row">
                     <div class="col-md-6 offset-md-4">
                         <form action="/save" method="post">
-                            @csrf <!-- Move it here inside the form -->
+                            @csrf 
+                            <!-- Move it here inside the form -->
 
                             <div class="form-group">
                                 <label for="first_name"> First Name</label>
@@ -58,6 +59,7 @@
                                 <label for="address">Address</label>
                                 <input type="text" class="form-control" name="address" id="address" placeholder="Enter address" required>
                             </div>
+                            <!-- update code -->
                             <div class="form-group text-center">
                                 <button type="submit" class="btn btn-primary mt-2">Save</button>
                             </div>
